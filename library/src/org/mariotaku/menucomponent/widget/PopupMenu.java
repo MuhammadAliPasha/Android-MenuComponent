@@ -23,14 +23,14 @@ public class PopupMenu implements OnDismissListener, OnItemClickListener, OnTouc
 	private OnMenuItemClickListener mItemClickListener;
 	private OnDismissListener mDismissListener;
 
-	private Menu mMenu;
 	private final Context mContext;
 	private final View mView;
 	private final ListPopupWindow mWindow;
 
-	private boolean mDidAction;
-
 	private final MenuAdapter mAdapter;
+	private Menu mMenu;
+
+	private boolean mDidAction;
 
 	/**
 	 * Constructor for default vertical layout
